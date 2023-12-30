@@ -1,36 +1,64 @@
 @font-face {
-  font-family: "K2D";
-  src: url("../fonts/K2D-Bold.eot");
-  src: url("../fonts/K2D-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/K2D-Bold.woff2") format("woff2"), url("../fonts/K2D-Bold.woff") format("woff"), url("../fonts/K2D-Bold.ttf") format("truetype"), url("../fonts/K2D-Bold.svg#K2D-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "K2D";
-  src: url("../fonts/K2D-Regular.eot");
-  src: url("../fonts/K2D-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/K2D-Regular.woff2") format("woff2"), url("../fonts/K2D-Regular.woff") format("woff"), url("../fonts/K2D-Regular.ttf") format("truetype"), url("../fonts/K2D-Regular.svg#K2D-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "K2D";
-  src: url("../fonts/K2D-Italic.eot");
-  src: url("../fonts/K2D-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/K2D-Italic.woff2") format("woff2"), url("../fonts/K2D-Italic.woff") format("woff"), url("../fonts/K2D-Italic.ttf") format("truetype"), url("../fonts/K2D-Italic.svg#K2D-Italic") format("svg");
+  font-family: "Gelasio";
+  src: url("../fonts/Gelasio-Italic.eot");
+  src: url("../fonts/Gelasio-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gelasio-Italic.woff2") format("woff2"), url("../fonts/Gelasio-Italic.woff") format("woff"), url("../fonts/Gelasio-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
   font-display: swap; }
 @font-face {
-  font-family: "Philosopher";
-  src: url("../fonts/Philosopher-Regular.eot");
-  src: url("../fonts/Philosopher-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Philosopher-Regular.woff2") format("woff2"), url("../fonts/Philosopher-Regular.woff") format("woff"), url("../fonts/Philosopher-Regular.ttf") format("truetype"), url("../fonts/Philosopher-Regular.svg#Philosopher-Regular") format("svg");
+  font-family: "Gelasio";
+  src: url("../fonts/Gelasio-Bold.eot");
+  src: url("../fonts/Gelasio-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gelasio-Bold.woff2") format("woff2"), url("../fonts/Gelasio-Bold.woff") format("woff"), url("../fonts/Gelasio-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "Gelasio";
+  src: url("../fonts/Gelasio-BoldItalic.eot");
+  src: url("../fonts/Gelasio-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gelasio-BoldItalic.woff2") format("woff2"), url("../fonts/Gelasio-BoldItalic.woff") format("woff"), url("../fonts/Gelasio-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: "Gelasio";
+  src: url("../fonts/Gelasio-Medium.eot");
+  src: url("../fonts/Gelasio-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gelasio-Medium.woff2") format("woff2"), url("../fonts/Gelasio-Medium.woff") format("woff"), url("../fonts/Gelasio-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "Gelasio";
+  src: url("../fonts/Gelasio-SemiBoldItalic.eot");
+  src: url("../fonts/Gelasio-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gelasio-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Gelasio-SemiBoldItalic.woff") format("woff"), url("../fonts/Gelasio-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: "Gelasio";
+  src: url("../fonts/Gelasio-Regular.eot");
+  src: url("../fonts/Gelasio-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gelasio-Regular.woff2") format("woff2"), url("../fonts/Gelasio-Regular.woff") format("woff"), url("../fonts/Gelasio-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: "SFU Honeymoon";
-  src: url("../fonts/SFUHoneymoon.eot");
-  src: url("../fonts/SFUHoneymoon.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUHoneymoon.woff2") format("woff2"), url("../fonts/SFUHoneymoon.woff") format("woff"), url("../fonts/SFUHoneymoon.ttf") format("truetype"), url("../fonts/SFUHoneymoon.svg#SFUHoneymoon") format("svg");
-  font-weight: normal;
+  font-family: "Gelasio";
+  src: url("Gelasio-MediumItalic.eot");
+  src: url("Gelasio-MediumItalic.eot?#iefix") format("embedded-opentype"), url("Gelasio-MediumItalic.woff2") format("woff2"), url("Gelasio-MediumItalic.woff") format("woff"), url("Gelasio-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: "Gelasio";
+  src: url("Gelasio-SemiBold.eot");
+  src: url("Gelasio-SemiBold.eot?#iefix") format("embedded-opentype"), url("Gelasio-SemiBold.woff2") format("woff2"), url("Gelasio-SemiBold.woff") format("woff"), url("Gelasio-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Conqueror Didot";
+  src: url("SVN-ConquerorDidot.eot");
+  src: url("SVN-ConquerorDidot.eot?#iefix") format("embedded-opentype"), url("SVN-ConquerorDidot.woff2") format("woff2"), url("SVN-ConquerorDidot.woff") format("woff"), url("SVN-ConquerorDidot.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
   font-display: swap; }
 .my_container {
@@ -93,5 +121,8 @@
     margin-bottom: 0; }
     .author p span {
       font-weight: bold; }
+
+#my-tab {
+  box-sizing: border-box !important; }
 
 /*# sourceMappingURL=main.css.map */
