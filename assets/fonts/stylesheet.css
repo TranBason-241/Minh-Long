@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'SFU Honeymoon';
+    src: url('SFUHoneymoon.eot');
+    src: url('SFUHoneymoon.eot?#iefix') format('embedded-opentype'),
+        url('SFUHoneymoon.woff2') format('woff2'),
+        url('SFUHoneymoon.woff') format('woff'),
+        url('SFUHoneymoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('Philosopher-Regular.eot');
+    src: url('Philosopher-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Philosopher-Regular.woff2') format('woff2'),
+        url('Philosopher-Regular.woff') format('woff'),
+        url('Philosopher-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'K2D';
+    src: url('K2D-Regular.eot');
+    src: url('K2D-Regular.eot?#iefix') format('embedded-opentype'),
+        url('K2D-Regular.woff2') format('woff2'),
+        url('K2D-Regular.woff') format('woff'),
+        url('K2D-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'K2D';
+    src: url('K2D-Italic.eot');
+    src: url('K2D-Italic.eot?#iefix') format('embedded-opentype'),
+        url('K2D-Italic.woff2') format('woff2'),
+        url('K2D-Italic.woff') format('woff'),
+        url('K2D-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'K2D';
+    src: url('K2D-Bold.eot');
+    src: url('K2D-Bold.eot?#iefix') format('embedded-opentype'),
+        url('K2D-Bold.woff2') format('woff2'),
+        url('K2D-Bold.woff') format('woff'),
+        url('K2D-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

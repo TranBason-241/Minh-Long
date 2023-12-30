@@ -1,0 +1,71 @@
+@import "fonts";
+
+.my_container {
+    background-color: white;
+    overflow: hidden;
+}
+.img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+
+.text_title {
+    width: 850px;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Philosopher";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.text_content {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    font-family: "K2D";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.group_image {
+    position: relative;
+    width: fit-content;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    & img:first-child {
+        position: initial;
+    }
+}
+
+.author {
+    font-size: 18px;
+    font-family: "San Francisco Text";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    // width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    p {
+        text-align: center;
+        span {
+            font-weight: bold;
+        }
+        margin-bottom: 0;
+    }
+    margin-top: 0px;
+}
