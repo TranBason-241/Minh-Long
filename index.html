@@ -11,9 +11,13 @@
     <link type="text/css" rel="stylesheet" href="assets/css/global.css" />
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
     <link type="text/css" rel="stylesheet" href="assets/css/animate-v4.min.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- <link type="text/css" rel="stylesheet" href="assets/css/swiper-bundle.min.css" /> -->
+    <link type="text/css" rel="stylesheet" href="assets/css/swiper.min.css" />
+
     <link type="text/css" rel="stylesheet" href="assets/css/aos.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/liteaccordion.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/accordion-slider.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/examples.css" media="screen" />
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css" />
     <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
     <!-- End stylesheet -->
 
@@ -164,7 +168,284 @@
         <div class="wrapper-content">
           <div id="overlay"></div>
           <div class="my_container">
-            <div id="my-tab"></div>
+            <!-- Accordion Slider -->
+
+            <!-- <div id="example1" class="accordion-slider" style="transform: rotatey(180deg)">
+              <div class="as-panels">
+              
+                <div class="as-panel pan-1">
+                  <div class="as-layer as-closed as-white as-vertical panel-counter" data-position="bottomLeft" data-horizontal="8" data-vertical="8">Panel 7</div>
+                  <p>Lorem ipsum dolor sit amet</p>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- End of Accordion Slider -->
+
+            <div class="my-stack">
+              <div class="stack-container">
+                <div class="stack-item st-1 activeStack">
+                  <div class="active-button">
+                    <img src="assets/images/home-icon.png" alt="" />
+                  </div>
+                  <div class="stack-content">
+                    <img src="assets/images/tab-1/decor-1.png" alt="" class="img img-decor decor-1" />
+                    <img src="assets/images/tab-1/decor-2.png" alt="" class="img img-decor decor-2" />
+                    <img src="assets/images/home/img-1.png" alt="" class="img-full img-1" />
+                    <p class="stack-title">
+                      Minh Long đưa tiểu cảnh miền quê <br />
+                      vào tượng linh vật Tết
+                    </p>
+                    <p class="sub-title">
+                      Câu chuyện chàng thư sinh dùi mài kinh sử, đỗ đạt trạng nguyên hay hình ảnh sân gạch, đồng lúa… <br />
+                      lần đầu được Minh Long phác họa trên tượng linh vật rồng Tết 2024.
+                    </p>
+                    <div class="pointer-container">
+                      <p>Cuộn chuột để next page</p>
+                      <img src="assets/images/home/pointer-1.png" alt="" class="img img-pointer img-pointer-1" />
+                      <img src="assets/images/home/pointer-2.png" alt="" class="img img-pointer img-pointer-2" />
+                    </div>
+                  </div>
+                </div>
+                <div class="stack-item st-2">
+                  <div class="active-button">
+                    <p>1</p>
+                  </div>
+
+                  <div class="stack-content mCustomScrollbar" dark>
+                    <!-- your content -->
+                    <div class="group_text group_text_1" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
+                      <p class="text_content t-content">
+                        Sải bước giữa các phân khu trong nhà máy rộng hàng nghìn m2, ông Lý Huy Sáng - Tổng giám đốc Công ty TNHH Minh Long I tỉ mỉ kiểm tra những bức tượng linh vật ở mọi công đoạn,
+                        từ tạo hình, lên men đến khi ra khỏi lò nung, trang trí… Năm nay, bộ sưu tập tượng rồng Minh Long giới thiệu bốn phong cách, ứng dụng thủ pháp chế tác hiện đại cùng lối trang
+                        trí thủ công, điểm vàng 24K, nước men celadon ánh ngọc - phủ sương.
+                      </p>
+                      <p class="text_content t-content">
+                        Tổng giám đốc của hãng gốm sứ lớn nhất Đông Nam Á nói, mua một bức tượng, người dùng không chỉ nhìn đường nét. Họ muốn nghe câu chuyện bên trong, coi đó như lời chúc cho bản
+                        thân trước thềm năm mới. Chính vậy, trên mỗi bức tượng, Minh Long nghệ thuật hóa nhiều hình ảnh văn hóa Việt, gửi gắm thông điệp về năm mới bứt phá như cá chép hóa rồng, nhận
+                        ngọc, thu vàng.
+                      </p>
+                    </div>
+
+                    <div class="slide-container">
+                      <div class="swiper slide-stack-2">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-1/slide-1.png" alt="" class="img" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-1/slide-2.jpg" alt="" class="img" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-1/slide-2.jpg" alt="" class="img" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-button-next">
+                        <img src="assets/images/btn-right.png" alt="" class="img-btn img pc" />
+                      </div>
+                      <div class="swiper-button-prev">
+                        <img src="assets/images/btn-left.png" alt="" class="img-btn img pc" />
+                      </div>
+                    </div>
+
+                    <p class="text_content t-content img-des">Ông Lý Huy Sáng nghiên cứu, thẩm định tác phẩm Ngũ Đức.</p>
+
+                    <div class="group_text group_text_3" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
+                      <p class="text_content t-content">
+                        Còn với ông Lý Ngọc Minh - Chủ tịch Hội đồng thành viên Công ty TNHH Minh Long I, giới thiệu tượng linh vật Tết, ông nhấn mạnh nhiều lần cụm từ: uy vũ mà nhân hậu. Rồng dưới
+                        bàn tay chế tác của nhà sáng lập Minh Long có năng lực huyền bí, hô mưa gọi gió nhưng lại biết nở nụ cười, tạo cái duyên và thiện cảm với người đối diện. Thế nên dù rồng oai vệ
+                        giương móng vuốt, mắt sáng quắc, tượng vẫn lột tả câu chúc bình an, sung túc - điều ước mà mỗi người chờ mong, dịp xuân về Tết đến.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="stack-item st-3">
+                  <div class="active-button">
+                    <p>2</p>
+                  </div>
+                  <div class="stack-content">
+                    <p class="stack-title">Tượng Long Phù Đại Khánh</p>
+                    <p class="sub-title">
+                      Hình ảnh chú rồng truyền thống ngự trên núi cao <br />
+                      Núi khắc nổi hình ảnh mô phỏng bản đồ Việt Nam với quần đảo Hoàng Sa, Trường Sa
+                    </p>
+
+                    <div class="slide-container">
+                      <div class="swiper slide-stack-3">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-2/slide-1.png" alt="" class="img-slide" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-2/slide-2.png" alt="" class="img-slide" />
+                          </div>
+                        </div>
+                        <div class="swiper-button-next">
+                          <img src="assets/images/btn-right.png" alt="" class="img-btn img pc" />
+                        </div>
+                        <div class="swiper-button-prev">
+                          <img src="assets/images/btn-left.png" alt="" class="img-btn img pc" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <p class="slide-des">
+                      Kích thước: 13,5 cm, 23,9 cm và 30,5 cm <br />
+                      Hai màu sắc: trắng, xanh celadon
+                    </p>
+                    <div class="detail-button-container">
+                      <div class="btn-detail">
+                        <p>Chi tiết nội dung</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="stack-item st-4">
+                  <div class="active-button">
+                    <p>3</p>
+                  </div>
+                  <div class="stack-content">
+                    <p class="stack-title">Tượng Khải Đức</p>
+                    <p class="sub-title">
+                      Hình ảnh vòng tròn mô phỏng sự luân hồi tạo hóa <br />
+                      Thông điệp cá chép vượt Vũ Môn hóa Rồng, đoạt viên châu vàng
+                    </p>
+
+                    <div class="slide-container">
+                      <div class="swiper slide-stack-4">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-3/slide-1.png" alt="" class="img-slide" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-3/slide-2.png" alt="" class="img-slide" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-3/slide-3.png" alt="" class="img-slide" />
+                          </div>
+                        </div>
+                        <div class="swiper-button-next">
+                          <img src="assets/images/btn-right.png" alt="" class="img-btn img pc" />
+                        </div>
+                        <div class="swiper-button-prev">
+                          <img src="assets/images/btn-left.png" alt="" class="img-btn img pc" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <p class="slide-des">
+                      Kích thước: 23,9 cm và 31 cm <br />
+                      Ba màu sắc: trắng, xanh celadon, xanh celadon sương mờ
+                    </p>
+                    <div class="detail-button-container">
+                      <div class="btn-detail">
+                        <p>Chi tiết nội dung</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="stack-item st-5">
+                  <div class="active-button">
+                    <p>4</p>
+                  </div>
+                  <div class="stack-content">
+                    <p class="stack-title">Tượng Hảo Đức</p>
+                    <p class="sub-title">Hình ảnh phi truyền thống, nhân hóa tạo nét trẻ trung</p>
+
+                    <div class="slide-container">
+                      <div class="swiper slide-stack-5">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-4/slide-1.png" alt="" class="img-slide" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-4/slide-2.png" alt="" class="img-slide" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-4/slide-3.png" alt="" class="img-slide" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-4/slide-4.png" alt="" class="img-slide" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-4/slide-5.png" alt="" class="img-slide" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-4/slide-6.png" alt="" class="img-slide" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/images/tab-4/slide-7.png" alt="" class="img-slide" />
+                          </div>
+                        </div>
+                        <div class="swiper-button-next">
+                          <img src="assets/images/btn-right.png" alt="" class="img-btn img pc" />
+                        </div>
+                        <div class="swiper-button-prev">
+                          <img src="assets/images/btn-left.png" alt="" class="img-btn img pc" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <p class="slide-des">
+                      Kích thước: 13,5 cm, 23,9 cm <br />
+                      Bảy màu sắc: trắng, xanh celadon, nâu, đỏ, xanh lá, xanh dương, xanh celadon sương mờ
+                    </p>
+                    <div class="detail-button-container">
+                      <div class="btn-detail">
+                        <p>Chi tiết nội dung</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="stack-item st-6">
+                  <div class="active-button">
+                    <p>5</p>
+                  </div>
+                  <div class="stack-content">
+                    <p class="stack-title">Tượng Ngũ Đức</p>
+                    <p class="sub-title sub-title-1">Phiên bản giới hạn chỉ sản xuất 9 tượng</p>
+                    <p class="sub-title sub-title-2">
+                      Ngũ Đức tức 5 đức tính: <br />
+                      Nhân (nhân hậu), Lễ (lễ giáo), Nghĩa (chính nghĩa), Trí (trí tuệ), Tín (uy tín)
+                    </p>
+                    <div class="detail-button-container">
+                      <div class="btn-detail">
+                        <p>Chi tiết nội dung</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="stack-item st-7">
+                  <div class="active-button">
+                    <p>6</p>
+                  </div>
+                  <div class="stack-content">
+                    <div class="group_text group_text_1" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
+                      <p class="text_content t-content">
+                        Như thường lệ, trước giờ tan làm, ông Sáng đi một vòng quanh nhà máy rồi đến khu mỹ thuật - nơi những bức tượng được hoàn thiện dưới bàn tay nghệ nhân. Ông trò chuyện với các
+                        họa sĩ về cách nhấn nhá tạo hồn cho bức tượng, đôi lúc trực tiếp cầm cọ khi cần minh họa những dụng ý trong mỗi chi tiết.
+                      </p>
+                      <p class="text_content t-content">
+                        Qua lời Tổng giám đốc, mỗi bước tiến trong nghệ thuật chế tác tượng sứ đều là một công trình nghiên cứu đồ sộ, ứng dụng khoa học kỹ thuật lẫn con mắt nhà nghề. Để từ đó, mỗi
+                        bức tượng Minh Long có thể thay mọi người nêu lên ước vọng, thổi hồn cho gian phòng bằng giá trị thẩm mỹ - văn hóa “không biên giới, không thời gian".
+                      </p>
+                    </div>
+                    <div class="video-container"></div>
+                    <div class="group_text group_text_2" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
+                      <p class="text_content t-content">Trọn bộ sưu tập <a href="" target="blank">tại đây</a>.</p>
+                    </div>
+                    <div class="author pc">
+                      <p>Nội dung: <span>Thảo Nguyên </span> - Ảnh: <span>Thanh Tùng</span> - Thiết kế: <span>Duc Tran</span> - Kỹ thuật: <span>Sơn Bá</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -186,8 +467,10 @@
     <script type="text/javascript" src="assets/js/aos.js"></script>
     <script type="text/javascript" src="assets/js/imagesStatus.min.js"></script>
     <script type="text/javascript" src="assets/js/swiper.min.js"></script>
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="assets/js/liteaccordion.jquery.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.js"></script>
+
     <script type="text/javascript" src="assets/js/main.min.js"></script>
     <script>
       AOS.init({ offset: 120, duration: 3000 });

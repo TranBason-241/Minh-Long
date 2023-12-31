@@ -1,7 +1,7 @@
 @import "fonts";
 
 .my_container {
-    background-color: white;
+    background-color: #d6f7f8;
     overflow: hidden;
 }
 .img {
@@ -29,8 +29,8 @@
     text-align: left;
     font-size: 18px;
     position: relative;
-    font-family: "K2D";
-    font-weight: normal;
+    font-family: "SVN-Conqueror Didot";
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -52,9 +52,10 @@
 
 .author {
     font-size: 18px;
-    font-family: "San Francisco Text";
-    font-weight: normal;
+    font-family: "SVN-Conqueror Didot";
+    font-weight: 300;
     font-style: normal;
+
     text-align: center;
     // width: 700px;
     max-width: 100%;
@@ -68,15 +69,20 @@
         margin-bottom: 0;
     }
     margin-top: 0px;
+    margin-bottom: 40px;
 }
 
-#my-tab {
+.my-stack {
     box-sizing: border-box !important;
     span {
         // display: none;
     }
 }
 
+.as-panel {
+    box-shadow: none !important;
+    // width: 1571px !important;
+}
 .tab-container {
 }
 
@@ -85,4 +91,402 @@
 .tab-1 {
 }
 .tab-2 {
+}
+
+// .as-background {
+//     width: 100%;
+//     height: auto;
+// }
+
+.p-7 {
+    background-color: aqua;
+}
+
+// my-stack
+
+.stack-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 46px);
+}
+.stack-item {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 1977px;
+    background-position: right top;
+    transition: all 1.5s;
+    width: calc(100% - 300px);
+}
+
+.active-button {
+    position: absolute;
+    top: 7%;
+    right: 14px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+        color: red;
+    }
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+.st-1 {
+    background-image: url(../images/home/bg.png);
+    left: 0;
+    height: 100%;
+}
+.st-2 {
+    background-image: url(../images/tab-1/bg.png);
+    left: 50px;
+    height: 100%;
+}
+.st-3 {
+    background-image: url(../images/tab-2/bg.png);
+
+    left: 100px;
+    height: 100%;
+}
+.st-4 {
+    background-image: url(../images/tab-3/bg.png);
+
+    left: 150px;
+    height: 100%;
+}
+.st-5 {
+    background-image: url(../images/tab-4/bg.png);
+
+    left: 200px;
+    height: 100%;
+}
+.st-6 {
+    background-image: url(../images/tab-5/bg.png);
+
+    left: 250px;
+    height: 100%;
+}
+.st-7 {
+    background-image: url(../images/tab-6/bg.png);
+
+    left: 300px;
+    height: 100%;
+}
+
+.toLeft {
+    transform: translateX(calc(-93%));
+}
+
+///
+///
+///
+.stack-title {
+    font-size: 60px;
+    font-family: "SVN-Conqueror Didot";
+    color: #12484d;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    text-align: center;
+    line-height: 1.1 !important;
+}
+.sub-title {
+    font-size: 22px;
+    font-family: "Gelasio";
+    color: #12484d;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    text-align: center;
+}
+.slide-des {
+    font-size: 20px;
+    font-family: "Gelasio";
+    color: #12484d;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    text-align: center;
+}
+.stack-content {
+    width: 100%;
+    height: 100%;
+    // padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-full {
+    width: auto;
+    height: 65vh;
+}
+.img-decor {
+    position: absolute;
+}
+.pointer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    p {
+        margin-bottom: 0;
+        font-family: "Gelasio";
+        color: #12484d;
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+        text-align: center;
+        font-size: 13px;
+    }
+}
+.img-pointer {
+    width: fit-content;
+    height: fit-content;
+}
+.img-pointer-2 {
+    margin-left: -30px;
+    animation: pointer 1.3s linear infinite alternate;
+}
+
+@keyframes pointer {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(12px);
+    }
+}
+
+.st-1 {
+    .decor-1 {
+        bottom: 4%;
+        right: 6%;
+    }
+    .decor-2 {
+        top: 5%;
+        left: 2%;
+    }
+    .img-1 {
+        height: 45vh;
+        margin-bottom: 50px;
+    }
+    .stack-title {
+        margin-bottom: 60px !important;
+    }
+    p.sub-title {
+        margin-bottom: 40px;
+    }
+}
+.st-3 {
+    .slide-stack {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}
+.st-6 {
+    .stack-content {
+        justify-content: start;
+        padding-top: 6%;
+        .stack-title {
+            margin-bottom: 15px;
+        }
+        .sub-title {
+            margin-bottom: 40px;
+        }
+    }
+}
+.st-7 {
+    .stack-content {
+        justify-content: end;
+    }
+    .video-container {
+        width: 80%;
+        height: 400px;
+        background-color: red;
+    }
+    .group_text_2 {
+        margin-top: 20px;
+        p {
+            text-align: center !important;
+        }
+        a {
+            font-family: "SVN-Conqueror Didot";
+            font-weight: 300;
+            font-style: normal;
+            font-style: italic;
+            text-decoration: underline;
+        }
+    }
+}
+
+.swiper {
+    width: 900px;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: auto;
+    height: 50vh;
+    object-fit: cover;
+}
+.slide-stack {
+    width: 60%;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    display: none;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    display: none;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    width: 70px;
+}
+
+.st-3,
+.st-4,
+.st-5,
+.st-6 {
+    .sub-title {
+        font-style: italic;
+    }
+}
+
+.detail-button-container {
+    cursor: pointer;
+    width: 185px;
+    height: 40px;
+    background-image: url(../images/bg-button.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .btn-detail {
+        p {
+            margin-bottom: 0;
+            font-size: 17px;
+            color: white;
+            font-family: "SVN-Conqueror Didot";
+            font-weight: 300;
+            font-style: normal;
+        }
+    }
+}
+
+.div-test {
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+}
+.div-test-2 {
+    width: 100%;
+    height: 1000px;
+    background-color: yellow;
+}
+
+.st-2 {
+    .stack-content {
+        overflow: auto;
+        width: calc(100% - 180px);
+        margin: 0 auto;
+        padding: 0 0px;
+        box-sizing: border-box !important;
+        justify-content: start;
+    }
+
+    // .stack-content::-webkit-scrollbar-track {
+    //     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    //     border-radius: 10px;
+    //     background-color: #d6f6f7;
+    // }
+
+    // .stack-content::-webkit-scrollbar {
+    //     width: 12px;
+    //     background-color: transparent;
+    // }
+
+    // .stack-content::-webkit-scrollbar-thumb {
+    //     border-radius: 10px;
+    //     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    //     background-color: #98c6c7;
+    // }
+    // .stack-content::-webkit-scrollbar-track {
+    //     margin-top: 300px;
+    //     margin-bottom: 300px;
+    // }
+    .mCSB_scrollTools .mCSB_draggerRail {
+        width: 12px;
+        background-color: #d6f7f8;
+    }
+    .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        width: 8px;
+
+        background-color: #98c6c7;
+    }
+    .mCSB_scrollTools .mCSB_dragger {
+        padding-top: 5px;
+    }
+    .mCustomScrollBox {
+        width: 100%;
+    }
+}
+
+.st-2 {
+    .swiper-slide img {
+        display: block;
+        width: fit-content;
+        height: auto;
+        object-fit: cover;
+        max-width: 100%;
+    }
+    .slide-stack {
+        overflow: hidden;
+        margin: 0 auto;
+        width: fit-content;
+        padding: 0 100px;
+    }
+    .slide-stack-2 {
+        width: 900px;
+        overflow: hidden;
+    }
+    .group_text_1 {
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    .group_text_3 {
+        margin-top: 50px;
+    }
+}
+.slide-container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0 100px;
+}
+
+.img-des {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
