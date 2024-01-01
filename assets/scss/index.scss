@@ -115,7 +115,7 @@
     width: 100%;
     max-width: 1977px;
     background-position: right top;
-    transition: all 1.5s;
+    transition: all 1.2s;
     width: calc(100% - 300px);
 }
 
@@ -489,4 +489,116 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0;
+}
+
+//Modal
+.modal-body {
+    padding: 0;
+    overflow: hidden;
+}
+.modal-dialog {
+    max-width: 1100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.close-button {
+    position: absolute;
+    right: -5%;
+    top: 1%;
+    background-color: transparent;
+    border: none;
+    img {
+        width: 40px;
+        height: auto;
+    }
+}
+.modal-dialog-scrollable {
+    height: 100%;
+    .modal-content {
+        overflow: visible;
+        position: relative;
+    }
+}
+.modal-header {
+    padding: 0;
+    border: none;
+}
+
+// Detail\
+.detail {
+    p {
+        color: #ffffff;
+    }
+    display: none;
+}
+
+.detail-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.detail-1 {
+    background-image: url("../images/bg-detail.jpg");
+    .img-1 {
+        margin-top: 50px;
+    }
+    .group_img_1 {
+        margin-bottom: 30px;
+    }
+}
+.detail-2 {
+    padding-bottom: 50px;
+    background-image: url("../images/bg-detail.jpg");
+    .img-1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .img-2-container {
+        width: 100%;
+        padding: 92px 0;
+        background-image: url("../images/tab-3/bg-1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        // background-size: contain;
+    }
+    .detail-container {
+        width: 100%;
+    }
+    .group_img_2 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .group_img_3 {
+        margin-top: 30px;
+    }
+}
+.detail-3 {
+    padding-bottom: 50px;
+    background-image: url("../images/tab-4/bg-detail.jpg");
+    .group_img_4 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .group-img-5-container {
+        width: 100%;
+        padding: 0px 0;
+        background-image: url("../images/tab-4/bg-group-5.png");
+        background-position: center top 37%;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .group_img_6 {
+        margin-top: -5%;
+    }
+}
+.detail-4 {
+    padding-bottom: 50px;
+    background-image: url("../images/bg-detail.jpg");
+}
+
+.detail-show {
+    display: inherit !important;
 }

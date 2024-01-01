@@ -42,22 +42,22 @@
   font-display: swap; }
 @font-face {
   font-family: "Gelasio";
-  src: url("Gelasio-MediumItalic.eot");
-  src: url("Gelasio-MediumItalic.eot?#iefix") format("embedded-opentype"), url("Gelasio-MediumItalic.woff2") format("woff2"), url("Gelasio-MediumItalic.woff") format("woff"), url("Gelasio-MediumItalic.ttf") format("truetype");
+  src: url("../fonts/Gelasio-MediumItalic.eot");
+  src: url("../fonts/Gelasio-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gelasio-MediumItalic.woff2") format("woff2"), url("../fonts/Gelasio-MediumItalic.woff") format("woff"), url("../fonts/Gelasio-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap; }
 @font-face {
   font-family: "Gelasio";
-  src: url("Gelasio-SemiBold.eot");
-  src: url("Gelasio-SemiBold.eot?#iefix") format("embedded-opentype"), url("Gelasio-SemiBold.woff2") format("woff2"), url("Gelasio-SemiBold.woff") format("woff"), url("Gelasio-SemiBold.ttf") format("truetype");
+  src: url("../fonts/Gelasio-SemiBold.eot");
+  src: url("../fonts/Gelasio-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gelasio-SemiBold.woff2") format("woff2"), url("../fonts/Gelasio-SemiBold.woff") format("woff"), url("../fonts/Gelasio-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
 @font-face {
   font-family: "SVN-Conqueror Didot";
-  src: url("SVN-ConquerorDidot.eot");
-  src: url("SVN-ConquerorDidot.eot?#iefix") format("embedded-opentype"), url("SVN-ConquerorDidot.woff2") format("woff2"), url("SVN-ConquerorDidot.woff") format("woff"), url("SVN-ConquerorDidot.ttf") format("truetype");
+  src: url("../fonts/SVN-ConquerorDidot.eot");
+  src: url("../fonts/SVN-ConquerorDidot.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-ConquerorDidot.woff2") format("woff2"), url("../fonts/SVN-ConquerorDidot.woff") format("woff"), url("../fonts/SVN-ConquerorDidot.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
@@ -143,7 +143,7 @@
   width: 100%;
   max-width: 1977px;
   background-position: right top;
-  transition: all 1.5s;
+  transition: all 1.2s;
   width: calc(100% - 300px); }
 
 .active-button {
@@ -434,5 +434,96 @@
   text-align: center;
   margin-top: 10px;
   margin-bottom: 0; }
+
+.modal-body {
+  padding: 0;
+  overflow: hidden; }
+
+.modal-dialog {
+  max-width: 1100px;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.close-button {
+  position: absolute;
+  right: -5%;
+  top: 1%;
+  background-color: transparent;
+  border: none; }
+  .close-button img {
+    width: 40px;
+    height: auto; }
+
+.modal-dialog-scrollable {
+  height: 100%; }
+  .modal-dialog-scrollable .modal-content {
+    overflow: visible;
+    position: relative; }
+
+.modal-header {
+  padding: 0;
+  border: none; }
+
+.detail {
+  display: none; }
+  .detail p {
+    color: #ffffff; }
+
+.detail-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 70px; }
+
+.detail-1 {
+  background-image: url("../images/bg-detail.jpg"); }
+  .detail-1 .img-1 {
+    margin-top: 50px; }
+  .detail-1 .group_img_1 {
+    margin-bottom: 30px; }
+
+.detail-2 {
+  padding-bottom: 50px;
+  background-image: url("../images/bg-detail.jpg"); }
+  .detail-2 .img-1 {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .detail-2 .img-2-container {
+    width: 100%;
+    padding: 92px 0;
+    background-image: url("../images/tab-3/bg-1.png");
+    background-position: center;
+    background-repeat: no-repeat; }
+  .detail-2 .detail-container {
+    width: 100%; }
+  .detail-2 .group_img_2 {
+    margin-top: 30px;
+    margin-bottom: 40px; }
+  .detail-2 .group_img_3 {
+    margin-top: 30px; }
+
+.detail-3 {
+  padding-bottom: 50px;
+  background-image: url("../images/tab-4/bg-detail.jpg"); }
+  .detail-3 .group_img_4 {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .detail-3 .group-img-5-container {
+    width: 100%;
+    padding: 0px 0;
+    background-image: url("../images/tab-4/bg-group-5.png");
+    background-position: center top 37%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .detail-3 .group_img_6 {
+    margin-top: -5%; }
+
+.detail-4 {
+  padding-bottom: 50px;
+  background-image: url("../images/bg-detail.jpg"); }
+
+.detail-show {
+  display: inherit !important; }
 
 /*# sourceMappingURL=main.css.map */
