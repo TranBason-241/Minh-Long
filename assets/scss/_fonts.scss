@@ -37,18 +37,18 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: "Gelasio";
-    src: url("../fonts/Gelasio-Medium.eot");
-    src:
-        url("../fonts/Gelasio-Medium.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/Gelasio-Medium.woff2") format("woff2"),
-        url("../fonts/Gelasio-Medium.woff") format("woff"),
-        url("../fonts/Gelasio-Medium.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
+// @font-face {
+//     font-family: "Gelasio";
+//     src: url("../fonts/Gelasio-Medium.eot");
+//     src:
+//         url("../fonts/Gelasio-Medium.eot?#iefix") format("embedded-opentype"),
+//         url("../fonts/Gelasio-Medium.woff2") format("woff2"),
+//         url("../fonts/Gelasio-Medium.woff") format("woff"),
+//         url("../fonts/Gelasio-Medium.ttf") format("truetype");
+//     font-weight: 500;
+//     font-style: normal;
+//     font-display: swap;
+// }
 
 @font-face {
     font-family: "Gelasio";
@@ -203,5 +203,18 @@
         url("../fonts/SVN-GilroyItalic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Times New Roman";
+    src: url("../fonts/TimesNewRomanPSMT.eot");
+    src:
+        url("../fonts/TimesNewRomanPSMT.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TimesNewRomanPSMT.woff2") format("woff2"),
+        url("../fonts/TimesNewRomanPSMT.woff") format("woff"),
+        url("../fonts/TimesNewRomanPSMT.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
     font-display: swap;
 }
