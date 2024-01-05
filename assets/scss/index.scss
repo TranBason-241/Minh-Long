@@ -182,6 +182,7 @@ body {
 
     left: 300px;
     height: 100%;
+    padding-right: 50px;
 }
 
 .toLeft {
@@ -494,6 +495,10 @@ body {
     // }
 }
 .st-2,
+.st-3,
+.st-4,
+.st-5,
+.st-6,
 .st-7 {
     .mCSB_scrollTools .mCSB_draggerRail {
         width: 12px;
@@ -511,7 +516,11 @@ body {
         width: 100%;
     }
 }
-.st-7 {
+.st-7,
+.st-6,
+.st-5,
+.st-4,
+.st-3 {
     .stack-content {
         width: calc(100% - 120px);
         margin: 0 auto;
@@ -545,7 +554,6 @@ body {
         overflow: hidden;
     }
     .group_text_1 {
-        margin-top: 100px;
         margin-bottom: 40px;
     }
     .group_text_3 {
@@ -738,7 +746,7 @@ body {
         width: 100% !important;
     }
     .nemu-item {
-        background-image: url(../images/btn-menu.png);
+        background-image: url(../images/bg-button-menu.png);
         background-repeat: no-repeat;
         background-position: center;
         width: 180px;
@@ -751,7 +759,8 @@ body {
         padding: 0px 0px;
     }
     i {
-        color: #12484d;
+        // color: #12484d;
+        color: #012021;
         font-size: 32px;
     }
 }
@@ -840,6 +849,29 @@ body {
     }
 }
 
+.div-fake {
+    width: 100%;
+    height: 3000px;
+    background-color: red;
+}
+.st-2,
+.st-3,
+.st-4,
+.st-5,
+.st-6 {
+    .stack-content {
+        overflow: auto;
+        width: calc(100% - 120px);
+        margin: 0 auto;
+        padding: 0 0px;
+        box-sizing: border-box !important;
+        justify-content: start;
+    }
+}
+.mCSB_container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 @media (max-width: 1600px) {
     .toLeft {
         transform: translateX(calc(-91%));
@@ -1094,6 +1126,9 @@ body {
     .modal.fade .modal-dialog {
         transition: none;
         transform: none;
+    }
+    .my-menu .swiper {
+        margin: 0 auto;
     }
 }
 
@@ -1379,4 +1414,12 @@ body {
     .author {
         font-size: 16px;
     }
+}
+
+.my-menu {
+    width: 100%;
+    background-image: url(../images/bg-group-button.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(216, 212, 212, 0.507);
 }
